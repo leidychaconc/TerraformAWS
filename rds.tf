@@ -30,7 +30,7 @@ resource "aws_db_parameter_group" "education" {
   }
 }
 resource "aws_db_subnet_group" "education" {
-  name       = "education"
+  name       = "education2"
   subnet_ids = module.vpc.private_subnets
 
   tags = {
